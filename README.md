@@ -40,16 +40,16 @@ sd.calc
 => 2
 
 # 95%信頼区間内判定
-@sd.within_95_percent?(1.0)
+sd.within_95_percent?(1.0)
 => true
 
-@sd.within_95_percent?(0.9)
+sd.within_95_percent?(0.9)
 => false
 
-@sd.within_95_percent?(9.0)
+sd.within_95_percent?(9.0)
 => true
 
-@sd.within_95_percent?(9.1)
+sd.within_95_percent?(9.1)
 => false
 
 # 平均
